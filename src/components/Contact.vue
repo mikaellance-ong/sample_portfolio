@@ -133,7 +133,7 @@
 	}
 
 	onMounted(() => {
-		const interval = setIntervl(() => {
+		const interval = setInterval(() => {
 			if(window.grecaptcha && window.grecaptcha.render)
 			{
 				renderRecaptcha();
